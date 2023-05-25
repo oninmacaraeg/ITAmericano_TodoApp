@@ -1,0 +1,114 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0%;
+}
+
+.header {
+  flex: 30%;
+  background-color: rgb(248, 177, 149);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header input {
+  width: 250px;
+  height: 30px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  padding-left: 10px;
+  font-size: 13px;
+  border: 1px solid rgb(233, 175, 175);
+  color: rgb(158, 136, 65);
+}
+
+.header button {
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  padding-left: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  color: rgba(102, 97, 28, 0.863);
+  background-color: blanchedalmond;
+}
+
+.header .AddFormContaine {
+  display: flex;
+  flex-direction: column;
+}
+
+.todoList {
+  flex: 95%;
+  width: 100%;
+  background-color: rgb(235, 215, 190);
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.todo {
+  width: 500px;
+  height: 25px;
+  display: flex;
+}
+
+.todo .todoTable {
+  flex: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo .todoTable .spanTodo {
+  /* place-items: center; */
+  display: grid;
+  width: 80%;
+  height: 100%;
+  font-size: 12px;
+  border-right: none;
+  margin-bottom: 2px;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+  color: rgb(241, 102, 47);
+}
+
+.todo .todoTable .spanNumber {
+  place-items: center;
+  display: grid;
+  width: 10%;
+  height: 100%;
+  font-size: 12px;
+  border-right: none;
+  border: 0px solid grey;
+  margin-bottom: 2px;
+  color: rgb(241, 102, 47);
+}
+
+.todo .todoTable .spanCheckbox {
+  place-items: center;
+  align-items: flex-end;
+  display: grid;
+  width: 10%;
+  height: 100%;
+  font-size: 12px;
+  border-right: none;
+  border: 0px solid grey;
+  margin-bottom: 2px;
+  color: rgb(241, 102, 47);
+}
